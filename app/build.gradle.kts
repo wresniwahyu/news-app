@@ -85,11 +85,6 @@ dependencies {
     implementation(libs.paging.runtime)
     implementation(libs.paging.compose)
 
-    // Room DB
-//    implementation(libs.androidx.room.runtime)
-//    implementation(libs.androidx.room.ktx)
-//    ksp(libs.androidx.room.compiler)
-
     // Network: Retrofit, Gson, OkHttp
     implementation(libs.squareup.retrofit)
     implementation(libs.squareup.retrofit.converter.gson)
@@ -104,7 +99,6 @@ dependencies {
     releaseImplementation(libs.chucker.release)
 
     testImplementation(libs.junit)
-    testImplementation(libs.mockk)
 
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
